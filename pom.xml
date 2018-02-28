@@ -14,7 +14,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.7.RELEASE</version>
+		<version>1.4.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
@@ -30,6 +30,10 @@
 		<module>itemsharing.userservice</module>
 		<module>itemsharing.itemservice</module>
 		<module>itemsharing.configserver</module>
+		<module>itemsharing.eurekaserver</module>
+		<module>itemsharing.zuulserver</module>
+		<module>itemsharing.authorizationserver</module>
+		<module>itemsharing.zipkinserver</module>
 	</modules>
 
 	<dependencies>

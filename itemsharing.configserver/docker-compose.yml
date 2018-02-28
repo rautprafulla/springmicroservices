@@ -1,0 +1,7 @@
+  configservice:
+    image: prafullaraut/configservice
+    mem_limit: 1073741824
+    ports:
+       - "8888:8888"
+    environment:
+      ENCRYPT_KEY: "PRAFULLA"

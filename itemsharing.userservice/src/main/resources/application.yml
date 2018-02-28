@@ -11,7 +11,7 @@
 #  datasource:
 #    url: "jdbc:mysql://localhost:3306/itemsharingdatabase"
 #    username: "root"
-#    password: "Rochester24"
+#    password: "root"
 #    testWhileIdle: "true"
 #    validationQuery: "SELECT 1"
 #    
@@ -22,3 +22,17 @@
 #server:
 #  port: 8081
 # 
+
+#security:
+# oauth2:
+#  resource:
+#    userInfoUri: http://localhost:8901/user
+#    
+#signing:
+#  key: 345345fsdgsf5345
+#  
+#logging:
+#  level:
+#    com.netflix: WARN
+#    org.springframework.web: WARN
+#    com.itemsharing: DEBUG
